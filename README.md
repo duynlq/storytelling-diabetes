@@ -9,8 +9,8 @@ Badge [source](https://shields.io/)
 - Diabetes is a serious health problem that affects many Americans. In clinical care, there are many risk factors that directly affects the likelihood of a patient with diabetes to be readmitted within 30 days of discharge.
 - A Logistic Regression model with SMOTE was performed to classify patients in this category with an accuracy of 62% ([formal report](FORMAL_REPORT.pdf)), however it was a good starting point to pinpoint the top 10 important features that contribute to the increase of classification for hospital readmission.
 
-## Key Findings
-- The top 10 important features are listed in the table below, along with their regressor weight.
+## Key Findings: The top 10 important features are listed in the table below, along with their regressor weight.
+  
 | Num | Feature | Weight | Note |
 | -------- | ------- | ------- | -------- |
 | 1 | discharge_disposition_id_8 | 0.612653 | Transferred to home under care of Home IV provider |
@@ -23,7 +23,8 @@ Badge [source](https://shields.io/)
 | 8 | diag_3_Diabetes | 0.060908 | Diabetes as one of patient’s diagnoses |
 | 9 | miglitol_No | 0.058262 | Oral anti-diabetic drug that helps patient breaks down complex carbohydrates into glucose |
 | 10 | glipizide-metformin_Steady | 0.043848 | Medicine combination used to treat high blood sugar levels caused by type 2 diabetes |
-- A [Tableau Dashboard](https://public.tableau.com/app/profile/duy.nguyen7683/viz/USHospitalsDiabetesHub/Dashboard2?publish=yes) was created to visualize these 10 important features.
+
+A [Tableau Dashboard](https://public.tableau.com/app/profile/duy.nguyen7683/viz/USHospitalsDiabetesHub/Dashboard2?publish=yes) was created to visualize these 10 important features.
 ![viz](images/viz.png)
 
 ## Data Source
