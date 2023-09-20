@@ -27,7 +27,7 @@ Badge [source](https://shields.io/)
 | 10 | glipizide-metformin_Steady | 0.043848 | Medicine combination used to treat high blood sugar levels caused by type 2 diabetes |
 
 ## Data Source
-- The dataset, obtained from the Center for Machine Learning and Intelligent Systems at University of California, Irvine, represents 10 years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. It includes 95,854 entries and 50 features, representing patient and hospital attributes such as patient identification, diagnosis codes, admission type, source, and discharge disposition, risk related medications and test results, and numerous other hospitalization indicators. 
+- The dataset, obtained from the Center for Machine Learning and Intelligent Systems at University of California, Irvine, represents 10 years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. It includes 100,000+ entries and 50 features, representing patient and hospital attributes such as patient identification, diagnosis codes, admission type, source, and discharge disposition, risk related medications and test results, and numerous other hospitalization indicators. 
 - [UCI Diabetes 130-US hospitals for years 1999-2008](https://archive.ics.uci.edu/dataset/296/diabetes%20130-us%20hospitals%20for%20years%201999-2008)
 - [Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records](https://www.hindawi.com/journals/bmri/2014/781670/tab2/)
 
