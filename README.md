@@ -7,7 +7,7 @@ Badge [source](https://shields.io/)
 
 ## Problem Statement
 - Diabetes is a serious health problem that affects many Americans. In clinical care, there are many risk factors that directly affects the likelihood of a patient with diabetes to be readmitted within 30 days of discharge.
-- A Logistic Regression model with SMOTE was performed to classify patients in this category with an accuracy of 62% ([formal report](https://shields.io/)), however it was a good starting point to pinpoint the top 10 important features that contribute to the increase of classification for hospital readmission.
+- A Logistic Regression model with SMOTE was performed to classify patients in this category with an accuracy of 62% ([formal report](FORMAL_REPORT.pdf)), however it was a good starting point to pinpoint the top 10 important features that contribute to the increase of classification for hospital readmission.
 
 ## Key Findings
 - The top 10 important features are listed in the table below, along with their regressor weight.
