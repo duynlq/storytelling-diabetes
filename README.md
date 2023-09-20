@@ -1,4 +1,4 @@
-![banner](images/hotel_incentive.png)
+![banner](images/banner.png)
 
 ![Tools](https://img.shields.io/badge/Tools-Python,_SQL,_Tableau-red)
 ![GitHub last commit](https://img.shields.io/github/last-commit/duynlq/storytelling-diabetes)
