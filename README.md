@@ -11,8 +11,6 @@ Badge [source](https://shields.io/)
 
 ## Key Findings
 - The top 10 important features are listed in the table below, along with their regressor weight.
-- A [Tableau Dashboard](https://public.tableau.com/app/profile/duy.nguyen7683/viz/USHospitalsDiabetesHub/Dashboard2?publish=yes) was created to visualize these 10 important features. 
-
 | Num | Feature | Weight | Note |
 | -------- | ------- | ------- | -------- |
 | 1 | discharge_disposition_id_8 | 0.612653 | Transferred to home under care of Home IV provider |
@@ -25,6 +23,8 @@ Badge [source](https://shields.io/)
 | 8 | diag_3_Diabetes | 0.060908 | Diabetes as one of patient’s diagnoses |
 | 9 | miglitol_No | 0.058262 | Oral anti-diabetic drug that helps patient breaks down complex carbohydrates into glucose |
 | 10 | glipizide-metformin_Steady | 0.043848 | Medicine combination used to treat high blood sugar levels caused by type 2 diabetes |
+- A [Tableau Dashboard](https://public.tableau.com/app/profile/duy.nguyen7683/viz/USHospitalsDiabetesHub/Dashboard2?publish=yes) was created to visualize these 10 important features.
+![viz](images/viz.png)
 
 ## Data Source
 - The dataset, obtained from the Center for Machine Learning and Intelligent Systems at University of California, Irvine, represents 10 years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. It includes 100,000+ entries and 50 features, representing patient and hospital attributes such as patient identification, diagnosis codes, admission type, source, and discharge disposition, risk related medications and test results, and numerous other hospitalization indicators. 
