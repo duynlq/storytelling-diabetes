@@ -1,7 +1,6 @@
 ![banner](images/hotel_incentive.png)
 
-![Tools](https://img.shields.io/badge/Tools-Python,_SQL,_Tableau-yellow)
-![Methods](https://img.shields.io/badge/Methods-Webscraping,_NLP,_Supervised_ML-red)
+![Tools](https://img.shields.io/badge/Tools-Python,_SQL,_Tableau-red)
 ![GitHub last commit](https://img.shields.io/github/last-commit/duynlq/storytelling-diabetes)
 ![GitHub repo size](https://img.shields.io/github/repo-size/duynlq/storytelling-diabetes)
 Badge [source](https://shields.io/)
@@ -28,5 +27,27 @@ Badge [source](https://shields.io/)
 | 10 | glipizide-metformin_Steady | 0.043848 | Medicine combination used to treat high blood sugar levels caused by type 2 diabetes |
 
 ## Data Source
-- [Diabetes 130-US hospitals for years 1999-2008](https://archive.ics.uci.edu/dataset/296/diabetes%20130-us%20hospitals%20for%20years%201999-2008)
+- The dataset, obtained from the Center for Machine Learning and Intelligent Systems at University of California, Irvine, represents 10 years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. It includes 95,854 entries and 50 features, representing patient and hospital attributes such as patient identification, diagnosis codes, admission type, source, and discharge disposition, risk related medications and test results, and numerous other hospitalization indicators. 
+- [UCI Diabetes 130-US hospitals for years 1999-2008](https://archive.ics.uci.edu/dataset/296/diabetes%20130-us%20hospitals%20for%20years%201999-2008)
 - [Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records](https://www.hindawi.com/journals/bmri/2014/781670/tab2/)
+
+## Data Cleaning Summary
+- Replace '?' values with numpy nan
+- Remove 'encounter_id' and 'patient_nbr' since unique IDs
+- Remove 'weight' since 97% missing
+- Remove 'payer_code' and 'medical_specialty' both have 40% and 49% missing
+- Remove 'examide' and 'citoglipton' since both have only 1 value (zero variance)
+- Impute 'race' randomly based on its categorical proportions
+- Classify ranges of 'diag_1', 'diag_2', and 'diag_3' into categorized diagnoses using 2nd link above
+- Classify 'admission_type_id', 'admission_source_id', and 'discharge_disposition_id' according to given IDs_mapping.csv, while joining various categories to prepare for visualization
+- Convert response variable 'readmitted' into binary ('NO': 0, '>30': 0, '<30': 1)
+
+
+
+
+
+
+
+
+
+
